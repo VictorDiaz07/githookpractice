@@ -1,0 +1,22 @@
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.csprojAssemblyReference.cache
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.csproj.CoreCompileInputs.cache
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.AssemblyInfoInputs.cache
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.AssemblyInfo.cs
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.deps.json
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.runtimeconfig.json
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.runtimeconfig.dev.json
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.dll
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.pdb
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.dll
+C:\Users\victo\Documents\Software Projects\GitHookPractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.pdb
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.deps.json
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.runtimeconfig.json
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.runtimeconfig.dev.json
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.dll
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\bin\Debug\netcoreapp2.2\GitHookPractice.pdb
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.csprojAssemblyReference.cache
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.csproj.CoreCompileInputs.cache
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.AssemblyInfoInputs.cache
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.AssemblyInfo.cs
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.dll
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Debug\netcoreapp2.2\GitHookPractice.pdb
