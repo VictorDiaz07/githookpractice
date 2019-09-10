@@ -9,7 +9,7 @@ namespace GitHookPractice
     {
         static void Main(string[] args)
         {
-            SendEmail("KLK");
+            getCommits();
         }
 
         static void SendEmail(string message)
@@ -29,7 +29,7 @@ namespace GitHookPractice
             SmtpServer.Send(mail);
         }
 
-        static void getCommits()
+        static void GetCommits()
         {
             using (PowerShell powershell = PowerShell.Create())
             {
