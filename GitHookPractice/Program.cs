@@ -30,8 +30,6 @@ namespace GitHookPractice
             SmtpServer.EnableSsl = true;
             
             SmtpServer.Send(mail);
-
-            File.Delete("C:/log.log");
         }
         
         //    string message = "<table>< thead >< th >< h3 > Author </ h3 ></ th >< th >< h3 > Message </ h3 ></ th >< th >< h3 > Date </ h3 ></ th ></ thead >< tbody > ";

@@ -9,3 +9,4 @@ C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\Git
 C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Release\netcoreapp2.2\win-x64\GitHookPractice.AssemblyInfo.cs
 C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Release\netcoreapp2.2\win-x64\GitHookPractice.dll
 C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Release\netcoreapp2.2\win-x64\GitHookPractice.pdb
+C:\Users\victo\Documents\Software Projects\Git Hook Practice\githookpractice\GitHookPractice\obj\Release\netcoreapp2.2\win-x64\GitHookPractice.csprojAssemblyReference.cache
