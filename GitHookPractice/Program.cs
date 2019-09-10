@@ -33,8 +33,7 @@ namespace GitHookPractice
 
             File.Delete("C:/log.log");
         }
-
-        //static string FormatEmail(string unpushedCommits)
+        
         //{
         //    string message = "<table>< thead >< th >< h3 > Author </ h3 ></ th >< th >< h3 > Message </ h3 ></ th >< th >< h3 > Date </ h3 ></ th ></ thead >< tbody > ";
         //    string[] commits = unpushedCommits.Split(new string[] { "\\n" }, StringSplitOptions.None);
