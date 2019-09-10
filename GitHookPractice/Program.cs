@@ -32,8 +32,8 @@ namespace GitHookPractice
             SmtpServer.Send(mail);
         }
         
-        //    string message = "<table>< thead >< th >< h3 > Author </ h3 ></ th >< th >< h3 > Message </ h3 ></ th >< th >< h3 > Date </ h3 ></ th ></ thead >< tbody > ";
-        //    string[] commits = unpushedCommits.Split(new string[] { "\\n" }, StringSplitOptions.None);
+        //    <table>< thead >< th >< h3 > Author </ h3 ></ th >< th >< h3 > Message </ h3 ></ th >< th >< h3 > Date </ h3 ></ th ></ thead >< tbody > ";
+        //    [] commits = unpushedCommits.Split(new string[] { "\\n" }, StringSplitOptions.None);
         //    for (int i = 0; i < commits.Length; i++)
         //    {
         //        message += commits[i];
