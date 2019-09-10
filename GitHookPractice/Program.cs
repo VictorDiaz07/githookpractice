@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Management.Automation;
 using System.Net.Mail;
+using System.IO;
 
 namespace GitHookPractice
 {
@@ -9,40 +10,41 @@ namespace GitHookPractice
     {
         static void Main(string[] args)
         {
-            getCommits();
+            SendEmail();
         }
 
-        static void SendEmail(string message)
+        static void SendEmail()
         {
             MailMessage mail = new MailMessage();
             SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
 
             mail.From = new MailAddress("victordiazwepsys@gmail.com");
             mail.To.Add("victordiazmateo@gmail.com");
-            mail.Subject = "Test Mail";
-            mail.Body = message;
+            mail.Subject = "Commit Report";
+            mail.Body = "El siguiente archivo contiene los commits que se van a subir";
+            mail.IsBodyHtml = true;
+            mail.Attachments.Add(new Attachment("C:/log.log"));
 
             SmtpServer.Port = 587;
             SmtpServer.Credentials = new System.Net.NetworkCredential("victordiazwepsys@gmail.com", "m4m4n3m4");
             SmtpServer.EnableSsl = true;
-
+            
             SmtpServer.Send(mail);
+
+            File.Delete("C:/log.log");
         }
 
-        static void GetCommits()
-        {
-            using (PowerShell powershell = PowerShell.Create())
-            {
-                string directory = "C:/Users/victo/Documents/Software Projects/Git Hook Practice/githookpractice";
-                // this changes from the user folder that PowerShell starts up with to your git repository
-                powershell.AddScript(String.Format(@"cd {0}", directory));
+        //static string FormatEmail(string unpushedCommits)
+        //{
+        //    string message = "<table>< thead >< th >< h3 > Author </ h3 ></ th >< th >< h3 > Message </ h3 ></ th >< th >< h3 > Date </ h3 ></ th ></ thead >< tbody > ";
+        //    string[] commits = unpushedCommits.Split(new string[] { "\\n" }, StringSplitOptions.None);
+        //    for (int i = 0; i < commits.Length; i++)
+        //    {
+        //        message += commits[i];
+        //    }
 
-                powershell.AddScript(@"git log origin/master..HEAD");
-
-                Collection<PSObject> results = powershell.Invoke();
-            }
-        }
-
-
+        //    message += "</tbody></ table >";
+        //    return message;
+        //}
     }
 }

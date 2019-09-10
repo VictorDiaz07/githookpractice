@@ -1,11 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.2",
+    "name": ".NETCoreApp,Version=v2.2/win-x64",
     "signature": "61839e7ecfb25d6f7a9dd134fada409aa80bc86c"
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v2.2": {
+    ".NETCoreApp,Version=v2.2": {},
+    ".NETCoreApp,Version=v2.2/win-x64": {
       "GitHookPractice/1.0.0": {
         "dependencies": {
           "Microsoft.PowerShell.5.ReferenceAssemblies": "1.1.0"
